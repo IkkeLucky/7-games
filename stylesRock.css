@@ -1,0 +1,15 @@
+button{
+    background-color: lightcoral;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-image: url("images/cope.jpg");
+    background-size: cover;
+}
+
+
