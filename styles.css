@@ -1,0 +1,71 @@
+h1 {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-image: url(games.jpg);
+    background-size: cover;
+}
+
+#gamesStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameList a {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.rock:hover{
+    font-size: 25px;
+    color: gray;
+    transition: 1s ease;
+}
+
+.memory:hover{
+    font-size: 25px;
+    color: salmon;
+    transition: 1s ease;
+}
+
+.whac:hover{
+    font-size: 25px;
+    color: sandybrown;
+    transition: 1s ease;
+}
+
+.break:hover{
+    font-size: 25px;
+    color: purple;
+    transition: 1s ease;
+}
+
+.frogger:hover{
+    font-size: 25px;
+    color: greenyellow;
+    transition: 1s ease;
+}
+
+.default1:hover{
+    font-size: 25px;
+    color: crimson;
+    transition: 1s ease;
+}
+
+.default2:hover{
+    font-size: 25px;
+    color: goldenrod;
+    transition: 1s ease;
+}
+
+
+
